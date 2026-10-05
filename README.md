@@ -14,12 +14,15 @@ Vai a **[Releases](../../releases/latest)** e descarrega o ficheiro do teu siste
 
 | Sistema | Ficheiro | Como arrancar |
 |---|---|---|
-| Windows 10/11 | `DoriMiner-windows-….zip` | Extrai o zip para uma pasta do disco e dá dois cliques em `DoriMiner` |
+| Windows 10/11 (instalador) | `DoriMiner-Setup-….exe` | Corre o instalador: cria os atalhos e abre o DoriMiner. Não pede administrador |
+| Windows 10/11 (zip) | `DoriMiner-windows-….zip` | Extrai o zip para uma pasta do disco e dá dois cliques em `DoriMiner` |
 | Linux | `DoriMiner-linux-….tar.gz` | `tar -xzf DoriMiner-linux-….tar.gz`, entra na pasta e `bash doriminer.sh` |
 
 Não é preciso instalar mais nada: o kit já traz o que precisa. O [LEIA-ME](LEIA-ME.txt) explica o arranque
 passo a passo e o que fazer se algo correr mal. Cada release tem o SHA-256 dos ficheiros, para confirmares
 que o que descarregaste é o que foi publicado.
+
+**Atualizar:** o DoriMiner avisa quando há uma versão nova e tem um botão "Atualizar agora", que a descarrega daqui, confere o SHA-256, instala e reinicia. Os teus perfis, miners e medições ficam.
 
 ## O que precisas
 
