@@ -1,0 +1,58 @@
+DoriMiner - como arrancar
+=========================
+
+WINDOWS
+ 1. Descompacta o zip (botao direito no zip > "Extrair tudo") para o disco do computador,
+    por exemplo para os Documentos. Nao o corras de dentro do zip nem diretamente da pen.
+ 2. Abre a pasta DoriMiner e da dois cliques em "DoriMiner" (o ficheiro com a roda dentada).
+ 3. Se o Windows mostrar "O Windows protegeu o seu PC": carrega em "Mais informacoes" e depois em
+    "Executar mesmo assim". Aparece porque o programa ainda nao e conhecido da Microsoft.
+ 4. Abre-se uma janela preta por uns segundos e depois a pagina do DoriMiner no browser.
+    A janela preta fecha-se sozinha (ou podes fecha-la): o DoriMiner fica a trabalhar em
+    segundo plano, sem janela. Se perguntar "Abrir como administrador?", responde S (Enter):
+    e preciso para o limite de potencia, as ventoinhas e o overclock.
+
+LINUX
+    Descompacta (tar -xzf DoriMiner-linux-....tar.gz), entra na pasta e corre:  bash doriminer.sh
+
+PRIMEIROS PASSOS (na pagina)
+    Separador "Perfis" > "Assistente": escolhes a moeda e a pool e colas a TUA carteira
+    (so o endereco publico; nunca a seed nem chaves privadas). Depois "Iniciar".
+
+FECHEI A PAGINA DO BROWSER
+    Da dois cliques em "DoriMiner" outra vez: a pagina volta a abrir (o DoriMiner nao parou).
+
+PARAR
+    O botao On/Off (canto de cima) desliga e liga a mineracao, com ou sem tempo.
+    "Fechar o DoriMiner" (canto de cima) para os miners e fecha o DoriMiner. Fechar o browser NAO o para.
+
+ARRANCAR SOZINHO QUANDO LIGO O COMPUTADOR
+    Na pagina, separador "Definicoes" > "Arranque" > "Este computador" > marcar a caixa (precisa do DoriMiner
+    aberto como administrador).
+
+ANTES DE COMECAR: FECHA OS OUTROS PROGRAMAS QUE MEXEM NA PLACA
+    MSI Afterburner e parecidos (EVGA Precision, ASUS GPU Tweak, FanControl...), a aplicacao da
+    Kryptex, NiceHash. Com eles abertos, as ventoinhas, o overclock e o limite de potencia do
+    DoriMiner sao desfeitos. Tira-os tambem do arranque do Windows. O DoriMiner avisa na pagina
+    se encontrar algum aberto. Programas que so leem (HWiNFO, GPU-Z) nao incomodam.
+
+LIMITE DE POTENCIA, VENTOINHAS E OVERCLOCK (Windows)
+    So funcionam com o DoriMiner aberto como administrador. Ele pergunta ao abrir; tambem da
+    com o botao direito em "DoriMiner" > "Executar como administrador". Sem isso, minera na mesma.
+
+ATUALIZAR PARA UMA VERSAO NOVA
+    Fecha o DoriMiner. Descompacta o zip novo POR CIMA da pasta antiga (escolhe "Substituir os
+    ficheiros"). Os teus perfis, miners e medicoes ficam (estao na pasta "data").
+
+ALGO CORREU MAL
+    Tira uma fotografia a janela preta (ou a pagina) e envia a quem te deu o DoriMiner.
+    Na pagina, separador "Hardware" > "Criar relatorio para enviar" faz um retrato da maquina
+    (nao tem carteiras). O que o DoriMiner escreve fica em data\doriminer.log.
+
+VARIAS MAQUINAS E TELEMOVEL
+    Precisam do Tailscale (gratuito, tailscale.com) em cada maquina e no telemovel, com a mesma conta.
+    Na pagina: "Definicoes" > "Maquinas e telemovel". Sem Tailscale, o DoriMiner so se usa no proprio
+    computador: nao abre portas na tua rede.
+
+O que o DoriMiner nunca faz: pedir seeds ou chaves privadas, cobrar taxas, ou abrir o teu
+computador a internet. Os miners sao descarregados das paginas dos autores e conferidos.
