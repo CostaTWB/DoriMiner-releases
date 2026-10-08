@@ -1,5 +1,7 @@
 # DoriMiner (versão de teste)
 
+> **Mudámos de casa.** O DoriRig passa a ser publicado em **https://github.com/DoriByte/dori-rig-releases**. Este repositório fica como está para as instalações antigas poderem chegar à versão de passagem; quem instala de novo deve usar o repositório novo.
+
 Gestor de mineração para placas **NVIDIA**, em **Windows** e **Linux**. Instala os miners, cria perfis
 (moeda, pool, a tua carteira) e põe a minerar a partir de uma página no browser, sem editar ficheiros.
 Mostra o estado das placas, mede o que cada perfil rende, limita potência, ventoinhas e overclock, e
